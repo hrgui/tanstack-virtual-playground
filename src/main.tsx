@@ -1,4 +1,6 @@
-import "scroll-polyfill/auto";
+import scrollPolyfill from "scroll-polyfill";
+
+scrollPolyfill({ force: true });
 
 import * as React from "react";
 import * as ReactDOM from "react-dom/client";
