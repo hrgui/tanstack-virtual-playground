@@ -10,4 +10,5 @@ export default defineConfig({
       targets: ["defaults", "chrome >= 47"],
     }),
   ],
+  base: "./",
 });
